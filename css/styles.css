@@ -248,6 +248,7 @@ img {
 .main-btn {
   padding: 10px 32px;
   min-width: 200px;
+  min-height: 50px;
   margin: 0 auto 0 auto;
   display: block;
 
@@ -363,6 +364,7 @@ img {
   line-height: 1.17;
   letter-spacing: 0.01em;
   margin-bottom: 4px;
+  display: block;
 }
 
 .comment-field {
@@ -761,6 +763,16 @@ img {
 }
 
 .join-us-text {
+  color: var(--prime-color);
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.footer-title {
   color: var(--prime-color);
   margin-bottom: 20px;
   font-size: 14px;
